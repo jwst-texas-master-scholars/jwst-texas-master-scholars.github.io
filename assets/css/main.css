@@ -123,12 +123,13 @@
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #e89980;
+		color: #000;
 		text-decoration: none;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
+			border-bottom-color: #DEB33E;
+			color: #DEB33E;
 		}
 
 	strong, b {
@@ -250,6 +251,8 @@
 		text-align: right;
 	}
 
+
+
 /* Row */
 
 	.row {
@@ -257,6 +260,7 @@
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		text-align: justify;
 	}
 
 		.row > * {
