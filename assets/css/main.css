@@ -3178,6 +3178,7 @@
 
 		#banner h2, #banner h3, #banner h4, #banner h5, #banner h6 {
 			color: #fff;
+			font-weight: bold;
 		}
 
 		#banner h2 {
@@ -3190,6 +3191,8 @@
 		#banner p {
 			font-size: 1.25em;
 			margin-bottom: 1.75em;
+			font-weight: bold;
+
 		}
 
 		#banner input[type="submit"],
@@ -3256,9 +3259,10 @@
 /* Footer */
 
 	#footer {
-		background: #f0f0f0;
+		background: #DEB33E;
 		padding: 4em 0 6em 0;
 		text-align: center;
+		color: #1F618D;
 	}
 
 		#footer .icons a {
@@ -3266,15 +3270,15 @@
 			-webkit-transition: opacity 0.2s ease-in-out;
 			-ms-transition: opacity 0.2s ease-in-out;
 			transition: opacity 0.2s ease-in-out;
-			opacity: 0.35;
+			opacity: 0.85;
 		}
 
 			#footer .icons a:hover {
-				opacity: 0.75;
+				opacity: 0.95;
 			}
 
 		#footer .copyright {
-			color: #999;
+			color: #1F618D;
 			font-size: 0.9em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
@@ -3303,7 +3307,7 @@
 /* CTA */
 
 	#cta {
-		background: #e89980;
+		background: #DEB33E;
 		color: #f9e6df;
 		padding: 3.5em 0 4em 0;
 		text-align: center;
