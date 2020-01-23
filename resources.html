@@ -37,6 +37,7 @@
 					<header>
 						<h2>JWST Resources</h2>
 						<p>We've collected below a list of resources you may find useful </br>in familiarizing yourself with JWST proposal tools and preparing your Cycle 1 proposal.</p>
+                        <p>Please email us at <a href="mailto:jwst.texas@gmail.com">jwst.texas@gmail.com</a> if you find any problems with the links on this page.</p>
 					</header>
 
                     <div class="row">
@@ -96,10 +97,70 @@
 							<!-- Software installation -->
 								<section class="box" id="software">
 									<h3>Software and Tools for Observation Preparation</h3>
-									<p><b>TO BE UPDATED</b></p>
 
-									<hr />
-
+                                     <div class="table-wrapper">
+                                        <table style="margin-bottom: 0;">
+                                            <tbody>
+                                                <tr>
+                                                    <td><a href="https://proper.stsci.edu/proper/authentication/auth" target="_blank">MyST</a></td>
+                                                    <td>Create an account to access the <a href="https://jwst.etc.stsci.edu/" target="_blank">ETC</a> (and save your work) and the <a href="https://stsci.service-now.com/jwst" target="_blank">JWST Help Desk</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="http://www.stsci.edu/scientific-community/software/astronomers-proposal-tool-apt" target="_blank">APT</a></td>
+                                                    <td>This is APT v2020.1.1, which can be used to prepare proposals. The final version (v2020.2) for Cycle 1 will be released March 5, 2020. <b>Final submission of all Cycle 1 proposals must use APT v2020.2</b></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst.etc.stsci.edu/" target="_blank">ETC</a></td>
+                                                    <td>To save your workbooks and share with collaborators, <b>Login</b> with your MyST account and click "<b>Proceed</b>"</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://astroconda.readthedocs.io/en/latest/" target="_blank">AstroConda</a></td>
+                                                    <td>The JWST visibility and background tools are written in Python and require packages and libraries that are all included in the AstroConda Python distribution</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/jwst-other-tools/jwst-target-visibility-tools/jwst-general-target-visibility-tool-help" target="_blank">JWST General Target Visibility Tool (GTVT)</a></td>
+                                                    <td>Command-line Python tool that provides quick-look assessments of target visibilities and position angles for all JWST instruments</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/jwst-other-tools/jwst-target-visibility-tools/jwst-coronagraphic-visibility-tool-help" target="_blank">JWST Coronagraphic Visibility Tool (CVT)</a></td>
+                                                    <td>A GUI-based target visibility tool for assessing target visibilities and available position angles versus time relative to the MIRI and NIRCam coronagraphic masks</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/jwst-other-tools/backgrounds-tool" target="_blank">JWST Backgrounds Tool (JBT)</a></td>
+                                                    <td>Command line tool that accesses the JWST background models to return the total background intensity and its components as a function of time.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/jwst-other-tools/jwst-interactive-sensitivity-tool" target="_blank">JWST Interactive Sensitivity Tool (JIST)</a></td>
+                                                    <td>Provides a quick look into feasibility of planned observations prior to in-depth work with the ETC</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/near-infrared-spectrograph/nirspec-apt-templates/nirspec-multi-object-spectroscopy-apt-template/nirspec-observation-visualization-tool-help" target="_blank">NIRSpec Observation Visualization Tool (NOVT)</a></td>
+                                                    <td>Python application that provides a simultaneous view of both NIRSpec and NIRCam fields of view on a given sky position, for assistance in planning NIRCam pre-imaging for NIRSpec.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/near-infrared-spectrograph/nirspec-apt-templates/nirspec-multi-object-spectroscopy-apt-template/nirspec-msa-spectral-visualization-tool-help" target="_blank">NIRSpec MSA Spectral Visualization Tool (MSAViz)</a></td>
+                                                    <td>Allows the user to visualize the layout of MOS spectra on the NIRSpec detectors, given a particular filter, disperser, and MSA shutter configuration</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/near-infrared-spectrograph/nirspec-apt-templates/nirspec-multi-object-spectroscopy-apt-template/nirspec-msa-planning-tool-mpt" target="_blank">NIRSpec MSA Planning Tool (MPT)</a></td>
+                                                    <td>Used for the preparation of NIRSpec multi-object spectroscopy observations, part of the <a href="http://www.stsci.edu/scientific-community/software/astronomers-proposal-tool-apt" target="_blank">APT</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="http://www.stsci.edu/jwst/science-planning/proposal-planning-toolbox/psf-simulation-tool" target="_blank">WebbPSF Tool</a></td>
+                                                    <td>Generates accurate point-spread functions for JWST instruments. WebbPSF is used within the ETC to generate PSFs, but the full tool provides users with more flexibility.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://jwst-docs.stsci.edu/jwst-other-tools/mirage-data-simulator" target="_blank">Mirage</a></td>
+                                                    <td>Python code that can be used to generate simulated NIRCam, NIRISS, or FGS imaging data</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><a href="https://github.com/spacetelescope/awesimsoss" target="_blank">Awesimsoss</a></td>
+                                                    <td>Simulates scenes generated by the NIRISS Single Object Slitless Spectroscopy mode</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                
 								</section>
 						</div>
 					</div>
